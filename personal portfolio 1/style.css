@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap");
+
+body {
+  background-image: url(https://img.freepik.com/premium-vector/vivid-blurred-colorful-gradient-wallpaper-background-illustration_969463-3054.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'SUSE', sans-serif;
+}
+
+.navbar {
+  background-color: transparent;
+  color: rgb(255, 232, 232) !important;
+}
+
+.navbar-brand {
+  height: auto;
+  width: 8rem;
+  transition: linear 0.2s;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.3);
+}
+
+.navbar-nav {
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  color: aliceblue;
+  margin: 0.2rem;
+}
+
+.navbar-nav .nav-item .nav-link  {
+  margin: 0 2rem;
+  color: rgb(222, 205, 205); /* This will make all links white */
+  font-weight: 500;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    border-bottom: 3px solid rgb(0, 0, 0) ;
+  color: rgb(79, 17, 79); /* Change the color on hover */
+}
+
+.active .nav-link {
+  color: rgb(79, 17, 79) !important;
+  font-weight: 600;
+}
+
+.active .nav-link:hover {
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.btn-outline-light:hover {
+  color: rgb(79, 17, 79);
+  font-weight: 900;
+  box-shadow: 10px 10px 15px 10px rgb(79, 17, 79);
+}
+
+.name {
+    color: rgb(222, 205, 205);
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 0.5rem;
+}
+.header{
+    
+    color: aliceblue;
+    justify-content: center;
+    text-align: center;
+}
+.img img{
+    height: 400px;
+    transition: linear 0.2s;
+}
+.img img:hover{
+    transform: scale(1.1);
+}
+.logos{
+    height: 90px;
+    width: 83.5rem;
+    background-color:rgba(0, 0, 0, 0.616);
+}
+.logos img{
+    height: 25px;
+    margin: 2rem !important;
+    justify-content: center !important;
+    text-align: center !important;
+    padding-left: 7rem;
+    transition: linear 0.2s;
+}
+.logos img:hover{
+    transform: scalex(1.3);
+}
+.img-one .heading{
+    display:inline !important;
+}
+.service {
+    display: flex; /* Enables Flexbox */
+    align-items: center; /* Vertically aligns items */
+    gap: 14rem; /* Adds spacing between the image and the text */
+}
+
+.img-one img {
+    padding: 1rem;
+    margin: 2rem;
+    justify-content: center !important;
+    gap: 2rem;
+    width: 300px; /* Adjust image size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 0 9rem 9rem 9rem;
+}
+
+.heading {
+    font-family: 'SUSE', sans-serif;
+    line-height: 1.2;
+    color: aliceblue;
+}
+
+.para1 {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: gray;
+}
+.help{
+    margin: 9rem;
+    display: flex;
+    gap: 19rem;
+}
+.help-img img{
+    height: 400px;
+}
+.footer h1{
+color: aliceblue;
+justify-content: center;
+text-align: center;
+}
+.footer button{
+    justify-content: center;
+    text-align: center;
+    margin: 38rem;
+}
+.footer-icons span{
+    color: white;
+}
+.footer-icons{
+    margin: 5rem;
+    display: flex;
+    gap:32rem;
+}
+.img-icons img{
+    margin: 1.2rem;
+}
